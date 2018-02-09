@@ -17,6 +17,7 @@ public class Resource2 extends HttpServlet {
 		writer.println("<h1>");
 		writer.println("2222Hello I'm Resource 2");
 		writer.println("</h1>");
+		resp.setContentType("texr/plain");
 	}
 
 
